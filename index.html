@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Arda Başöz</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$(".loading").delay(3000).fadeOut(500, function(){
+  		  $(".content").fadeIn(1000);
+  		});
+  		
+  	});
+  </script>
 </head>
-
 <body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+     <div class="loading"><div><img src="img/shapes.gif"></div></div>
+	   <div class="content"><img src="img/arda_basoz_cv.jpg" class="bg">
+      <a href="img/ArdaBasoz_Art_CV.pdf" class="download_btn"target="_blank"><img src="img/pdf_btn.png"></a>
+     </div>
 </body>
 </html>
+
+ 
